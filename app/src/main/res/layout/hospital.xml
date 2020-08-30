@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--Add a image view later-->
+
+    <TextView
+        android:id="@+id/hospital_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOSPITAL_NAME"
+        android:layout_margin="2dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/hospital_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 KMS"
+        android:layout_margin="2dp"
+        />
+
+    <TextView
+        android:id="@+id/hospital_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOSPITAL_ADDRESS"
+        android:layout_margin="2dp"
+        />
+
+
+</LinearLayout>
